@@ -18,7 +18,7 @@ header{
 }
 
 nav{
-  width: 67%;
+  width: 74%;
   max-width: 1698px;
   margin: 0 auto;
   display: flex;
@@ -97,4 +97,139 @@ nav ul a{
 .banner-img{
   max-width: 585px;
   vertical-align:middle;
+}
+
+#about{
+  padding-top: 130px;
+  /* aikane margin top dilao same result ace */
+}
+
+.about-container{
+  width: 74%;
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #FFF8F3;
+  padding: 131px 156px;
+}
+
+.section-heading{
+  max-width: 827px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.section-heading h2{
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+  margin-bottom: 30px;
+}
+
+.section-heading p{
+  font-size: 18px;
+  color: #757575;
+  margin-bottom: 30px;
+  line-height: 30px;
+}
+
+.about-info{
+  display: flex;
+  justify-content: space-around;
+}
+
+.info-card p{
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.info-card p{
+  font-size: 20px;
+}
+
+#skill{
+  padding-top: 130px;
+}
+
+.skill-container{
+  width: 74%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+ 
+.skill-box{
+  display: flex;
+  gap: 24px;
+}
+
+.skill-card{
+  padding: 30px;
+  max-width: 267px;
+  box-shadow: 0 6px 50px 0 #00000022;
+}
+
+.skill-card img{
+  max-width: 44px;
+  margin-bottom: 30px;
+}
+
+.skill-card h3{
+  font-size: 20px;
+  color: #181818;
+  margin-bottom: 20px;
+}
+
+.skill-card p{
+  font-size: 16px;
+  color: #757575;
+  line-height: 28px;
+  margin-bottom: 30px;
+
+}
+
+#resume{
+  padding-top: 130px;
+}
+
+.resume-container{
+  width: 74%;
+  max-width: 1140px;
+  margin: 113px auto 0;
+  display: flex;
+  gap: 24px;
+}
+
+.section-title{
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #474747;
+}
+
+.resume-card{
+  max-width: 511px;
+  margin-right: 47px;
+}
+
+.card-title{
+  font-size: 25px;
+  margin-bottom: 10px;
+  color: #474747;
+}
+
+.card-info{
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #757575;
+  font-weight: 600;
+}
+
+.card-text{
+  font-size: 16px;
+  color: #757575;
+  line-height: 28px;
+}
+
+.resume-container hr{
+  margin: 30px 0;
 }
