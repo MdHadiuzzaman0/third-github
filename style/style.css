@@ -8,7 +8,7 @@ header{
     background-color: #FFF8F3;
     padding-top: 50px;
     background: url("/images/developer.png"), url("/images/header_bg.png"), #FFF8F3;
-    background-position: top left, bottom right;
+    background-position: 23px 38px, bottom right;
     background-repeat: no-repeat;
 }
 
@@ -232,4 +232,63 @@ nav ul a{
 
 .resume-container hr{
   margin: 30px 0;
+}
+
+.button2{
+  text-align: center;
+}
+
+.cvbtn{
+  color: #FFF8F3;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: #FD6E0A;
+  padding: 19px 17px 18px;
+  border: none;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+footer{
+  margin-top: 130px;
+  background-color: #FFF8F3;
+  padding: 130px 0;
+}
+
+.footer-container{
+  width: 74%;
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  gap: 116px;
+}
+
+.social{
+  max-width: 562px;
+}
+
+.footer-containerh2{
+  font-size: 35px;
+  color: #181818;
+  margin-bottom: 20px;
+}
+
+.footer-container .social p{
+  color: #474747;
+  line-height: 28px;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.icon a{
+  margin-right: 24px;
+}
+
+form input[type="text"], form textarea{
+  width: 461px;
+  padding: 18px 31px;
+  margin-bottom: 24px;
+  border: none;
+  border-radius: 5px;
+  color: #757575;
 }
